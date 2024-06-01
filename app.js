@@ -195,7 +195,7 @@ const palavra = document.querySelector('.palavra');
 const audioTempoFinalizado = new Audio('./sons/beep.wav')
 const tempoNaTela = document.querySelector('.timer');
 
-let tempoDecorridoEmSegundos = 5;
+let tempoDecorridoEmSegundos = 60;
 let intervaloId = null;
 
 botaoMaior.addEventListener('click', escolhePalavra);
@@ -204,7 +204,7 @@ botaoMenor.addEventListener('click', iniciarOuPausar);
 function escolhePalavra() {
   let posicao = Math.floor(Math.random() * (palavras.length + 1));
   palavra.innerHTML = `${palavras[posicao]}`;
-  tempoDecorridoEmSegundos = 5;
+  tempoDecorridoEmSegundos = 60;
   mostrarTempo();
   botaoMenor.classList.remove('escondido');
   tempoDecorridoEmSegundos = 5;
