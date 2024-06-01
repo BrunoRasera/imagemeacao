@@ -16,6 +16,21 @@ body {
   cursor: pointer;
 }
 
+.botao-menor {
+  padding: 8px;
+}
+
 .palavra {
   margin-top: 50px;
+}
+
+.escondido {
+  display: none;
+}
+
+.timer {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
