@@ -196,6 +196,5 @@ botao.addEventListener('click', escolhePalavra);
 
 function escolhePalavra() {
   let posicao = Math.floor(Math.random() * (palavras.length + 1));
-  console.log(posicao);
   palavra.innerHTML = `${palavras[posicao]}`;
 }
