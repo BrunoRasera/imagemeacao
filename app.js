@@ -207,7 +207,6 @@ function escolhePalavra() {
   tempoDecorridoEmSegundos = 60;
   mostrarTempo();
   botaoMenor.classList.remove('escondido');
-  tempoDecorridoEmSegundos = 5;
 }
 
 function iniciarOuPausar() {
